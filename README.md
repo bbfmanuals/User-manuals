@@ -41,7 +41,7 @@
 </html>
 <body>
 <nav>
-  <a href="#"><b>Introduction</b></a>
+  <a href="#"><b>IntroductioN</b></a>
   <a href="#"><b> Quick start Guide</b></a>
   <a href="#"><b>Installation</b></a>
   <a href="#"><b>Software manual</b></a>
