@@ -1,4 +1,4 @@
-<img src="user-manuals/Logo02.BMP">
+<img src="/Logo02.BMP">
 <nav style = "float:left">
  <li>Introduction:</li>
   <li> Quick start Guide</li>
