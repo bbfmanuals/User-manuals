@@ -4,14 +4,14 @@
 	<style>
 		nav{
 			background-color: #5994f2;
-	    	padding: 5px;
-	    	box-shadow: 5px 5px 5px grey;
+	    		padding: 5px;
+	    		box-shadow: 5px 5px 5px grey;
 		}
 		nav a{
-		padding: 0 15px;
-		color:white;
-		text-decoration: none;
-		font-size:25px;
+			padding: 0 15px;
+			color:white;
+			text-decoration: none;
+			font-size:25px;
 		}
 		nav a:hover {
 			color: black;
@@ -28,12 +28,13 @@
 		}
 		.image-caption{
 			background-color: whitesmoke;
-    		margin: 0 171px;
-    		border-radius: 5px;
-    		margin-bottom: 30px;
+    			margin: 0 171px;
+    			border-radius: 5px;
+    			margin-bottom: 30px;
 		}
-		intro-list li{
-			    margin-left: 35px;
+		.intro-list li{
+			margin-left: 35px;
+			padding-left:0;
 		}
 	</style>
 </head>
@@ -59,6 +60,7 @@
    <li>Default username is bbf</li>
    <li>Default password is Password (we recommend you to change password)</li>
   </ul>
+	<h4> Table of Contents: </h4>
  </div>
 <hr>
 	<h4><b>Quick start guide</b></h4>
