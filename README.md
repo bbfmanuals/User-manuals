@@ -4,14 +4,13 @@
 	<style>
 		nav{
 			background-color: #5994f2;
-	    		padding: 5px;
-	    		box-shadow: 5px 5px 5px grey;
-		}
+	    	padding: 5px;
+	    	box-shadow: 5px 5px 5px grey;
 		nav a{
-			padding: 0 15px;
-			color:white;
-			text-decoration: none;
-			font-size:25px;
+		padding: 0 15px;
+		color:white;
+		text-decoration: none;
+		font-size:25px;
 		}
 		nav a:hover {
 			color: black;
@@ -28,13 +27,12 @@
 		}
 		.image-caption{
 			background-color: whitesmoke;
-    			margin: 0 171px;
-    			border-radius: 5px;
-    			margin-bottom: 30px;
+    		margin: 0 171px;
+    		border-radius: 5px;
+    		margin-bottom: 30px;
 		}
-		.intro-list li{
-			margin-left: 35px;
-			padding-left:0;
+		intro-list li{
+			    margin-left: 35px;
 		}
 	</style>
 </head>
@@ -60,7 +58,85 @@
    <li>Default username is bbf</li>
    <li>Default password is Password (we recommend you to change password)</li>
   </ul>
-	<h4> Table of Contents: </h4>
  </div>
 <hr>
-	<h4><b>Quick start guide</b></h4>
+<h2><b>Package Contents</b></h4>
+<center><h5><b>BOX - A</h5></b></center>
+<center>
+<table style ="border:1px solid #5994f2; border-collapse:collapse; width:50%;font-weight: bold;">
+	<tr style="background-color: #5994f2; text-align: center;">
+		<th>Contents</th>
+		<th>Count</th>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>V2-SRT Firewall</td>
+		<td>1</td>
+	</tr>
+	<tr  style="background-color: #dbe9ff">
+		<td>Mounting Plate</td>
+		<td>1</td>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>Screws & posts for mounting plate</td>
+		<td>4</td>
+	</tr>
+	<tr style="background-color: #dbe9ff">
+		<td>Screws & drywall anchors for mounting plate</td>
+		<td>4</td>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>Rubber feet</td>
+		<td>1</td>
+	</tr>
+	<tr style="background-color: #dbe9ff">
+		<td>V2-SRT Power Supply & Power cord</td>
+		<td>1</td>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>7ft Ethernet cable (blue)</td>
+		<td>1</td>
+	</tr>
+	<tr style="background-color:#dbe9ff">
+		<td>7ft Ethernet cable (yellow)</td>
+		<td>1</td>
+	</tr>
+</table>
+</center>
+<center><h5><b>BOX - B</h5></b></center>
+<center>
+<table style ="border:1px solid #5994f2; border-collapse:collapse; width:50%;font-weight: bold; margin-top: 20px;">
+	<tr style="background-color: #5994f2; text-align: center;">
+		<th>Contents</th>
+		<th>Count</th>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>AC-1404 Wi-Fi Access Point</td>
+		<td>1</td>
+	</tr>
+	<tr  style="background-color: #dbe9ff">
+		<td>Mounting Plate</td>
+		<td>1</td>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>Screws & srywall anchors for mounting plate</td>
+		<td>4</td>
+	</tr>
+	<tr style="background-color: #dbe9ff">
+		<td>Rubber feet</td>
+		<td>1</td>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>AC-1404 POE Power Adaptor & Power Cord</td>
+		<td>1</td>
+	</tr>
+	<tr style="background-color: #dbe9ff">
+		<td>5ft Ethernet Cable (white)</td>
+		<td>1</td>
+	</tr>
+	<tr  style="background-color: #eaf1fc">
+		<td>7ft Ethernet cable (black)</td>
+		<td>1</td>
+	</tr>
+</table>
+</center>
+</body>
