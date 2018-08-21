@@ -6,6 +6,7 @@
 			background-color: #5994f2;
 	    	padding: 5px;
 	    	box-shadow: 5px 5px 5px grey;
+		}
 		nav a{
 		padding: 0 15px;
 		color:white;
