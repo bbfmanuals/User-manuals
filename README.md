@@ -63,7 +63,7 @@
  </div>
 <hr>
 <h2><b>Package Contents</b></h2>
-	<center><h5><b>BOX - A</b></h5></center>
+	<center><h5><b>BOX - A</b></h5> <i> (Blue Box Firewall Wi-Fi AC - 1404): </i></center>
 <center>
 <table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold; margin-bottom:20px;">
 	<tr style="background-color: #5994f2; text-align: center;">
@@ -104,7 +104,7 @@
 	</tr>
 </table>
 </center>
-	<center><h5><b>BOX - B</b></h5></center>
+	<center><h5><b>BOX - B</b> <i>(Blue Box Firewall V2-SRT): </i></h5></center>
 <center>
 <table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold; margin-top: 20px;">
 	<tr style="background-color: #5994f2; text-align: center;">
