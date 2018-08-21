@@ -16,8 +16,9 @@
 			color: black;
 		}
 		.firewall-kit-image{
-			width:800px;
-			height:300px;
+			width:600px;
+			height:400px;
+			margin:20px;
 		}
 		.image-caption{
 			background-color: gray;
