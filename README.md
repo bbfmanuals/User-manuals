@@ -1,4 +1,4 @@
-<h1 style ="color:red">Introduction:</h1>
+<h1>Introduction:</h1>
 
 <p>The Blue Box firewall provides an efficient and faster connectivity. It restricts/blocks anonymous data and enables maximum security by establishing safe and reliable connections. A user-friendly app with which user can customize their settings and enjoy the features of Blue Box. We the members of Blue Box firewall believe in customer satisfaction and take care of “Your Security, Everywhere”. </p>
 <ul>
@@ -10,3 +10,4 @@
   <li>Default username is bbf</li>
   <li>Default password is Password (we recommend you to change password)</li>
 </ul>
+<hr>
