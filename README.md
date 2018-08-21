@@ -66,8 +66,8 @@
 <center>
 <table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold;margin-bottom:20px;">
 	<tr style="background-color: #5994f2; text-align: center;">
-		<th>Contents</th>
-		<th>Count</th>
+		<th style="color:white">Contents</th>
+		<th style="color:white">Count</th>
 	</tr>
 	<tr  style="background-color: #eaf1fc">
 		<td>V2-SRT Firewall</td>
@@ -107,8 +107,8 @@
 <center>
 <table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold; margin-top: 20px;">
 	<tr style="background-color: #5994f2; text-align: center;">
-		<th>Contents</th>
-		<th>Count</th>
+		<th style="color:white">Contents</th>
+		<th style="color:white">Count</th>
 	</tr>
 	<tr  style="background-color: #eaf1fc">
 		<td>AC-1404 Wi-Fi Access Point</td>
