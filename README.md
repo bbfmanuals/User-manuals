@@ -17,7 +17,7 @@
 		}
 		.firewall-kit-image{
 			width:600px;
-			height:400px;
+			height:300px;
 			margin:20px;
 		}
 		.image-caption{
@@ -61,10 +61,10 @@
   </ul>
  </div>
 <hr>
-<h2><b>Package Contents</b></h2>
-	<center><h5><b>BOX - A</b></h5></center>
+<h2><b>Package Contents</b></h4>
+<center><h5><b>BOX - A</h5></b></center>
 <center>
-<table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold;margin-bottom:20px;">
+<table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold;">
 	<tr style="background-color: #5994f2; text-align: center;">
 		<th style="color:white">Contents</th>
 		<th style="color:white">Count</th>
@@ -103,12 +103,12 @@
 	</tr>
 </table>
 </center>
-	<center><h5><b>BOX - B</b></h5></center>
+<center><h5><b>BOX - B</h5></b></center>
 <center>
 <table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold; margin-top: 20px;">
 	<tr style="background-color: #5994f2; text-align: center;">
-		<th style="color:white">Contents</th>
-		<th style="color:white">Count</th>
+		<th>Contents</th>
+		<th>Count</th>
 	</tr>
 	<tr  style="background-color: #eaf1fc">
 		<td>AC-1404 Wi-Fi Access Point</td>
