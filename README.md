@@ -33,7 +33,7 @@
     		border-radius: 5px;
     		margin-bottom: 30px;
 		}
-		intro-list li{
+		.intro-list li{
 			    margin-left: 35px;
 		}
 	</style>
