@@ -4,8 +4,8 @@
 	<style>
 		nav{
 			background-color: #5994f2;
-			padding: 20px;
-		}
+	    	padding: 5px;
+	    	box-shadow: 5px 5px 5px grey;
 		nav a{
 		padding: 0 15px;
 		color:white;
@@ -25,6 +25,15 @@
 		.inner{
 			width:900px;
 		}
+		.image-caption{
+			background-color: whitesmoke;
+    		margin: 0 171px;
+    		border-radius: 5px;
+    		margin-bottom: 30px;
+		}
+		intro-list{
+			    padding-left: 30px;
+		}
 	</style>
 </head>
 </html>
@@ -40,7 +49,7 @@
 <div>
 <h4>Introduction:</h4>
 <p>The Blue Box firewall provides an efficient and faster connectivity. It restricts/blocks anonymous data and enables maximum security    by establishing safe and reliable connections. A user-friendly app with which user can customize their settings and enjoy the features of Blue Box. We the members of Blue Box firewall believe in customer satisfaction and take care of “Your Security, Everywhere”. </p>
- <ul>
+ <ul class="intro-list">
    <li>Blue Box firewall provides easy to use application.</li>
    <li>Blue Box firewall easy to use application is available on Play Store and Apple Store.</li>
    <li>Greater device support.</li>
