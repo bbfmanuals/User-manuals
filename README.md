@@ -15,7 +15,7 @@
    <li>Once Blue Box firewall is installed, you can connect wirelessly or directly using ethernet cables.</li>
    <li>All you need to do is type mybbf.net in the browser window.</li>
    <li>Default username is bbf</li>
-   <li>Default password is Password (we recommend you to change password)</li>
+  <li><b>Default password is Password (we recommend you to change password)</b></li>
   </ul>
  </div>
 <hr>
