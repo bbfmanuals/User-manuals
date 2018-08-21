@@ -9,7 +9,7 @@
 		}
 		nav a{
 		padding: 0 15px;
-		color:white !important;
+		color:white;
 		text-decoration: none;
 		font-size:25px;
 		}
@@ -32,8 +32,8 @@
     		border-radius: 5px;
     		margin-bottom: 30px;
 		}
-		intro-list{
-			    padding-left: 30px;
+		intro-list li{
+			    margin-left: 35px;
 		}
 	</style>
 </head>
