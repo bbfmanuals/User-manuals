@@ -4,7 +4,7 @@
 <ul>
   <li>Blue Box firewall provides easy to use application.</li>
   <li>Blue Box firewall easy to use application is available on Play Store and Apple Store.</li>
-  <li>Greater device support./li>
+  <li>Greater device support.</li>
   <li>Once Blue Box firewall is installed, you can connect wirelessly or directly using ethernet cables.</li>
   <li>All you need to do is type mybbf.net in the browser window.</li>
   <li>Default username is bbf</li>
