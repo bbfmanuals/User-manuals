@@ -8,7 +8,7 @@
 	    	box-shadow: 5px 5px 5px grey;
 		nav a{
 		padding: 0 15px;
-		color:white;
+		color:white !important;
 		text-decoration: none;
 		font-size:25px;
 		}
@@ -60,3 +60,4 @@
   </ul>
  </div>
 <hr>
+	<h4><b>Quick start guide</b></h4>
