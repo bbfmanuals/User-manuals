@@ -22,6 +22,9 @@
 		.image-caption{
 			background-color: gray;
 		}
+		.inner{
+			width:900px;
+		}
 	</style>
 </head>
 </html>
