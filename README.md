@@ -64,7 +64,7 @@
 <h2><b>Package Contents</b></h4>
 <center><h5><b>BOX - A</h5></b></center>
 <center>
-<table style ="border:1px solid #5994f2; border-collapse:collapse; width:50%;font-weight: bold;">
+<table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold;">
 	<tr style="background-color: #5994f2; text-align: center;">
 		<th>Contents</th>
 		<th>Count</th>
@@ -105,7 +105,7 @@
 </center>
 <center><h5><b>BOX - B</h5></b></center>
 <center>
-<table style ="border:1px solid #5994f2; border-collapse:collapse; width:50%;font-weight: bold; margin-top: 20px;">
+<table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold; margin-top: 20px;">
 	<tr style="background-color: #5994f2; text-align: center;">
 		<th>Contents</th>
 		<th>Count</th>
