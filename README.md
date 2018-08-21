@@ -65,7 +65,7 @@
 <h2><b>Package Contents</b></h2>
 	<center><h5><b>BOX - A</b></h5></center>
 <center>
-<table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold;">
+<table style ="border:1px solid #5994f2; border-collapse:collapse; width:100%;font-weight: bold; margin-bottom:20px;">
 	<tr style="background-color: #5994f2; text-align: center;">
 		<th style="color:white">Contents</th>
 		<th style="color:white">Count</th>
