@@ -1,5 +1,9 @@
-<h1>Introduction:</h1>
-
+<nav style = "float:left">
+ <li>Introduction:</li>
+  <li> Quick start Guide</li>
+  <li>Installation</li>
+  <li>Software manual</li>
+ </nav>
 <p>The Blue Box firewall provides an efficient and faster connectivity. It restricts/blocks anonymous data and enables maximum security by establishing safe and reliable connections. A user-friendly app with which user can customize their settings and enjoy the features of Blue Box. We the members of Blue Box firewall believe in customer satisfaction and take care of “Your Security, Everywhere”. </p>
 <ul>
   <li>Blue Box firewall provides easy to use application.</li>
