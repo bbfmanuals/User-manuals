@@ -4,7 +4,7 @@
 	<style>
 		@font-face {
   		font-family: poppinsFont;
-  		src: url(../src/assets/fonts/POPPINS-REGULAR.TTF);
+  		src: url(POPPINS-REGULAR.TTF);
 		}
 		body{
 		font-family: poppinsFont;
