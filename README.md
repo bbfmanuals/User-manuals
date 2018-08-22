@@ -3,22 +3,23 @@
 	<title>BBF Manuals</title>
 	<style>
 		@font-face {
-  		font-family: poppinsFont;
-  		src: url(POPPINS-REGULAR.TTF);
+  			font-family: poppinsFont;
+  			src: url(POPPINS-REGULAR.TTF);
 		}
 		body{
-		font-family: poppinsFont;
+			font-family: poppinsFont;
 		}
 		nav{
 			background-color: #5994f2;
-	    	padding: 5px;
-	    	box-shadow: 5px 5px 5px grey;
+	    		padding: 5px;
+	    		box-shadow: 5px 5px 5px grey;
 		}
 		nav a{
-		padding: 0 15px;
-		color:white;
-		text-decoration: none;
-		font-size:25px;
+			padding: 0 15px;
+			color:white;
+			text-decoration: none;
+			font-size:20px;
+			border-right: 1px solid white;
 		}
 		nav a:hover {
 			color: black;
@@ -36,12 +37,12 @@
 		}
 		.image-caption{
 			background-color: whitesmoke;
-    		margin: 0 171px;
-    		border-radius: 5px;
-    		margin-bottom: 30px;
+    			margin: 0 171px;
+    			border-radius: 5px;
+    			margin-bottom: 30px;
 		}
 		.intro-list li{
-			    margin-left: 35px;
+			margin-left: 35px;
 		}
 	</style>
 </head>
