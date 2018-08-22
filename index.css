@@ -1,0 +1,43 @@
+@import "{{ site.theme }}";
+@font-face {
+  			font-family: poppinsFont;
+  			src: url(POPPINS-REGULAR.TTF);
+		}
+		body{
+			font-family: poppinsFont;
+		}
+		nav{
+			background-color: #5994f2;
+	    		padding: 5px;
+	    		box-shadow: 5px 5px 5px grey;
+		}
+		nav a{
+			padding: 0 15px;
+			color:white;
+			text-decoration: none;
+			font-size:20px;
+			border-right: 1px solid white;
+		}
+		nav a:hover {
+			color: black;
+		}
+		.firewall-kit-image{
+			width:600px;
+			height:300px;
+			margin:20px;
+		}
+		.image-caption{
+			background-color: gray;
+		}
+		.inner{
+			width:900px;
+		}
+		.image-caption{
+			background-color: whitesmoke;
+    			margin: 0 171px;
+    			border-radius: 5px;
+    			margin-bottom: 30px;
+		}
+		.intro-list li{
+			margin-left: 35px;
+		}
