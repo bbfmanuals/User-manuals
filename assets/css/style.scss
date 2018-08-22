@@ -8,7 +8,7 @@
 		}
 		body{
 			font-family: poppinsFont;
-			width:80%;
+			width:70%;
 			margin:auto;
 		}
 		nav{
@@ -25,6 +25,9 @@
 		}
 		nav a:hover {
 			color: black;
+		}
+		nav a:last-child{
+			border-right:none;
 		}
 		.firewall-kit-image{
 			width:600px;
