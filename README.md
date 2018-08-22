@@ -2,6 +2,13 @@
 <head>
 	<title>BBF Manuals</title>
 	<style>
+		@font-face {
+  		font-family: poppinsFont;
+  		src: url(../src/assets/fonts/POPPINS-REGULAR.TTF);
+		}
+		body{
+		font-family: poppinsFont;
+		}
 		nav{
 			background-color: #5994f2;
 	    	padding: 5px;
