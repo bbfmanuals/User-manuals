@@ -1,4 +1,7 @@
-@import "Tactile";
+---
+---
+
+@import "{{ site.theme }}";
 @font-face {
   			font-family: poppinsFont;
   			src: url(POPPINS-REGULAR.TTF);
