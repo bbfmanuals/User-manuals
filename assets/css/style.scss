@@ -1,26 +1,25 @@
 @import "{{ site.theme }}";
-@font-face {
+	@font-face {
   			font-family: poppinsFont;
-  			src: url(POPPINS-REGULAR.TTF);
+  			src: url(assets/css/POPPINS-REGULAR.TTF);
 		}
 		body{
 			font-family: poppinsFont;
 			width: 800px;
 			margin:auto;
 		}
+		.logoheader {
+			text-align: center;
+    			margin-bottom: 10px;
+    			margin-top: 10px;
+		}
 		.logo {
-			width: 300px;
-			height: 100px;
+			width: 360px;
+   			height: 120px;
 			padding-bottom: 15px;
 		}
-		.logo-header-left{
-			float:left;
-		}
-		.logo-header-right{
-			float:right;
-		}
 		nav{
-			background-color: #5994f2;
+			background-color: #05a6d6;
 	    		padding: 5px;
 	    		box-shadow: 5px 5px 5px grey;
 		}
@@ -39,7 +38,7 @@
 		}
 		.dropdown .dropbtn {
 			font-size: 20px;
-    		border: none;
+    			border: none;
    			outline: none;
 			color: white;
 			padding: 0px 15px;
@@ -51,25 +50,28 @@
 		.dropdown {
 			display: inline-block;
    			border-right: 1px solid white;
+			position:relative;
 		}
 		.dropdown-content {
-			display: none;
-			position: absolute;
-			min-width: 160px;
-			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-			z-index: 1;
+			    display: none;
+			    position: absolute;
+			    left: -5px;
+			    right: -1px;
+			    min-width: 160px;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    z-index: 1;
 		}
 		.dropdown-content a:nth-child(odd){
-			background-color: #eaf1fc
+			background-color: #f0fcff;
 		}		
 		.dropdown-content a {
-			float: none;
-			color: black;
-			background-color: #dbe9ff;
-			padding: 12px 16px;
-			text-decoration: none;
-			display: block;
-			text-align: left;
+			    float: none;
+			    color: black;
+			    padding: 12px 12px;
+			    font-size: 19px;
+			    text-decoration: none;
+			    display: block;
+			    text-align: left;
 		}
 		.dropdown-content a:hover {
 			background-color: #ddd;
@@ -101,21 +103,27 @@
 			border:1px solid white; 
 			border-collapse:collapse; 
 			width:100%;
-			font-weight: bold; 
 			margin-bottom:20px;
 		}
 		table th{
-			background-color: #5994f2;
+			background-color: #05a6d6;
 			text-align: center;
 			color: white;
 		}
 		table tr:nth-child(even){
-			background-color: #dbe9ff;
+			background-color: #f0fcff;
 		}
 		table tr:nth-child(odd){
-			background-color: #eaf1fc;
+			background-color: lightcyan;
 		}
 		td:last-child{    
 			padding: 0 80px;
 			text-align: center
+		}
+		.connections-container {
+			text-align:center;
+		}
+		.connections {
+			width:650px;
+			height:600px;
 		}
