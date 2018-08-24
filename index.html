@@ -525,6 +525,8 @@ function topFunction() {
 </ul>
 <br/>
 
+<!--IPv4 Section-->
+
 <h4>IPv4 Section:</h4>
 <center><img src="Photos (2)/IPv4.PNG"></center>
 <ul>
@@ -533,39 +535,56 @@ function topFunction() {
 	<li>When the user clicks on “Add Gateway” button, a popup is displayed which allows to add gateway </li>
 </ul>
 <br/>
-<h4>IPV4 Gateway</h4>
+<h4>IPV4 Gateway:</h4>
 	<center><img src="Photos (2)/IPv4 gateway.PNG"></center>
 	<ul>
 		<li>In Add gateway form, there are fields like default, Gateway name, Gateway IP, Gateway description </li>
 		<li>After adding gateway, it appends gateway to the list as well as the dropdown option of Gateway.</li>
 		<li> If user selects default checkbox at the time of adding gateway, then the gateway makes default gateway. </li>
 		<li>At a time, only one gateway become default gateway. User also can delete gateway from list by clicking on Delete button.</li>
-	</ul>
-	<p>User must add valid gateway otherwise user can get validation message </p>
-	<p>If the user deselects DHCP option and user does not enter Ipv4 address, then user will get an error message</p>
+	<li>User must add valid gateway otherwise user can get validation message </li>
+	<li>If the user deselects DHCP option and user does not enter Ipv4 address, then user will get an error message</li>
+<br/>
+
+<!--IPv6 Section-->
+<h4>IPv6 Section:</h4>
+<center><img src="Photos (2)/IPv6.PNG"></center>
+<ul>
+	<li>If DHCP option is selected then it gives dynamic information like dynamic ipv4 address, dynamic subnet and dynamic gateway.</li>
+	<li>If DHCP option is not selected, then user must add valid Ipv4 address and select gateway from list. Also, User can gateway from here by clicking on Add Gateway button.</li>
+	<li>When the user clicks on “Add Gateway” button, a popup is displayed which allows to add gateway </li>
+</ul>
+<br/>
+<hr/>
+
+<!--IPv6 gateway needs to be added later on-->
 
 
+<h4>Port Forwarding:</h4>
+<center><img src="Photos (2)/port forwarding.PNG"></center>
+<p>In the above screen (Image: Port - 0), there are list of ports with its IP addresses, Protocol name and an option to delete in a tabular View.</p>
+<ul>
+	<li>User can Delete and Add new port from this page.</li>
+	<li>User can Add New port by clicking “Add New Port Forward Rule” button. </li>
+</ul>
+<p>After clicking this button, a below popup appears: </p>
+<center><img src="Photos (2)/port popup.PNG"></center>
+<br/>
+<ul>
+	<li>Users must fill in the fields like IP, Port in, Port Out and Protocol and click Add.</li>
+	<li>When user deletes or adds new port, then the user gets a message "Changes have been saved successfully"</li>
+	<li>If User does not enter valid port, an error message will be displayed.</li>
+</ul>
+<br/>
+<hr/>
+<!--Backup & Restore-->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<h4>Backup & Restore:</h4>
+<center><img src="Photos (2)/backup.PNG"></center>
+<p>Backup/Restore page shows the listing of all backups along with the created date of backup and Name of backup file. Also, there are options like create new backup, delete backup and restore backup.</p>
+<p>By clicking on “create new backup” button user can get one popup which says like “Do you want to create backup?” if user clicks on ok then backup will be created. List will be in descending order of the created date.</p>
+<p>The “cancel” button on top right will redirect the user to tools screen </p>
+<br/>
 		<hr/>
 		<footer class="footer">
 			<li><span>Contact:</span> BCI Computers, </li>
