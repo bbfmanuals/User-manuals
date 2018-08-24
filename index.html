@@ -22,9 +22,15 @@
 						<a href="#package-contents">Package Contents</a>
 					</div>
 				 </div> 
-			<a href="#install">
-				<b>Installation</b>
-			</a>
+			<div class="dropdown">
+					<button class="dropbtn"><b>Installation </b>
+						</button>
+					<div class="dropdown-content">
+						<a href="#install">Hardware Installation</a>
+						<a href="#pictorial">Pictorial Installation</a>
+						<a href="#detect">Detecting network</a>
+					</div>
+				 </div> 
 			<a href="#software-manuals">
 				<b>Software manual</b>
 			</a>
@@ -161,13 +167,61 @@
 					<td>1</td>
 				</tr>
 			</table>
+			<p></p>Note: <i>The serial numbers and  model numbers can be found behind the devices.</i></p>
 		</center>
 		<br>
 		<hr>
 	<h2 id="install">Installation <span><i>(How to connect Blue Box firewall)</i></span>:</h2>
+		<h3>Hardware Installation steps:</h3>
+			<ol>
+				<li>Connect one end of the yellow ethernet cable to slot 1 of firewall</li>
+				<li>Connect the other end of the yellow ethernet cable to your cable modem</li>
+				<li>Connect one end of the blue ethernet cable to POE slot of AC-1401 POE power adapter and power cord</li>
+				<li>Connect the other end to the blue ethernet cable to the WAN/POE slot of Wi-Fi access point(AC-1404)</li>
+				<li>Connect one end of the black ethernet cable to LAN slot of POE adapter.</li>
+				<li>Connect the other end of black ethernet cable to slot 2 of firewall(V2-SRT). </li>
+				<li>Plug in the AC-1404 POE power adapter and power cord to the power source.</li>
+				<li>Connect the V2-SRT power supply & power cord to the firewall(V2-SRT).</li>
+				<li>Connect the other end of V2-SRT power supply & power cord to the power supply.</li>
+				<li>Wait until the light on AC-1404 Wi-Fi access point turns blue.</li>
+			</ol>
+			<p>Note: <i>The blue color indicates successful network connection.</i></p>
+			<hr/> 
+		<h3 id="pictorial">Pictorial representaion for Hardware Installation:</h3>
+		<br/>
 		<div class="connections-container">
 		<img src = "Photos (2)/Screen Shot 2018-08-22 at 11.25.11 PM.png" class ="connections">
 		</div>
+		<br/>
+		<hr/>
+		<h3 id ="detect">Detecting Network (On device):</h3>
+		<p>Once the hardware installation is done, the next steps required are:</p>
+		<ol>
+			<li>Turn on the Wi-Fi in your device and search for the network.</li>
+			<li>User can see four different networks (Wi-Fi).</li>
+			<li>Two of them are Home networks and other two are Guest networks.</li>
+		</ol>
+		<label><b>Name of the Home Networks (Wi-Fi): </b></label>
+		<ul>
+			<li>Home Wi-Fi 2.4MHz-BBF</li>
+			<li>Home Wi-Fi 5.8MHz-BBF</li>
+		</ul>
+		<label><b>Name of the Guest Networks (Wi-Fi): </b></label>
+		<ul>
+			<li>Guest Wi-Fi 2.4MHz-BBF</li>
+			<li>Guest Wi-Fi 5.8MHz-BBF</li>
+		</ul>
+		<label><b>Home Wi-Fi Password:</b> Look behind your box (AC-1401 Wi-Fi Access Point)</label><br/><br/>
+		<label><b>Guest Wi-Fi Password:</b> Guest Wi-Fi does'nt have any password (open) </label><br/><br/>
+		<label>Note:<i> You can set password for Guest Wi-Fi by using the Blue box firewall app</i></label><br/>
+		<h4 id>How to use Blue box firewall app?</h4>
+		<ul>
+			<li>After connecting to Wi-Fi, open the browser(Chrome, Mozilla, Safari, etc.,) from any of your device and type /"mybbf.net/".</li>
+			<li>You will be navigated to the Blue Box site.</li>
+			<li>Typically username is “bbf” and password is “Password”</li>
+			<li>User will be navigated to the Blue Box firewall web application.</li>
+			<li>A user can manage his/her account settings from the Blue Box firewall application.</li>
+		</ul>
 	</div>
 </body>
 </html>
