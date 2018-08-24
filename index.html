@@ -2,11 +2,23 @@
 <head>
 	<title>BBF Manuals</title>
 	<link rel="stylesheet" href="assets/css/index.css">
-	<style>
-		
-	</style>
 </head>
 <body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+	<script>
+		window.onscroll = function() {scrollFunction()};
+		function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+	</script>
 	<div class="wrapper">
 		<div class="logoheader">
 				<img src="Logo02.BMP" class="logo">
@@ -14,7 +26,7 @@
 		
 		 <nav>
 				<div class="dropdown">
-					<button class="dropbtn"><b>Quick start guide </b>
+					<button class="dropbtn"><b>Quick start guide</b>
 						</button>
 					<div class="dropdown-content">
 						<a href="#table-contents">Table of contents</a>
@@ -47,13 +59,18 @@
 		<div>
 			<h2 id = "table-contents">Table of Contents:</h2>
 			<ol style="line-height: 2.5;">
-			<li>Quick Start Guide</li>
+			<li><b>Quick Start Guide</b></li>
 			<ol type="i">
 			<li>Introduction</li>
 			<li>Package Contents</li>
 			</ol>
-			<li>Installation (How to connect Blue Box firewall)</li>
-			<li>Software (user) Manual</li>
+			<li><b>Installation (How to connect Blue Box firewall)</b></li>
+			<ol type="i">
+			<li>Hardware Installation steps</li>
+			<li>Pictorial representation for Hardware Installation</li>
+			<li>Detecting network (on device)</li>
+			</ol>
+			<li><b>Software (user) Manual</b></li>
 			</ol>
 		</div>
 		<hr>
@@ -172,7 +189,7 @@
 		<br>
 		<hr>
 	<h2 id="install">Installation <span><i>(How to connect Blue Box firewall)</i></span>:</h2>
-		<h3>Hardware Installation steps:</h3>
+		<h3 class= "hardware-install">Hardware Installation steps:</h3>
 			<ol>
 				<li>Connect one end of the yellow ethernet cable to slot 1 of firewall</li>
 				<li>Connect the other end of the yellow ethernet cable to your cable modem</li>
@@ -214,14 +231,152 @@
 		<label><b>Home Wi-Fi Password:</b> Look behind your box (AC-1401 Wi-Fi Access Point)</label><br/><br/>
 		<label><b>Guest Wi-Fi Password:</b> Guest Wi-Fi does'nt have any password (open) </label><br/><br/>
 		<label>Note:<i> You can set password for Guest Wi-Fi by using the Blue box firewall app</i></label><br/>
-		<h4 id>How to use Blue box firewall app?</h4>
+		<h4 class ="app-usage">How to use Blue box firewall app?</h4>
 		<ul>
-			<li>After connecting to Wi-Fi, open the browser(Chrome, Mozilla, Safari, etc.,) from any of your device and type /"mybbf.net/".</li>
+			<li>After connecting to Wi-Fi, open the browser(Chrome, Mozilla, Safari, etc.,) from any of your device and type "mybbf.net".</li>
 			<li>You will be navigated to the Blue Box site.</li>
 			<li>Typically username is “bbf” and password is “Password”</li>
 			<li>User will be navigated to the Blue Box firewall web application.</li>
 			<li>A user can manage his/her account settings from the Blue Box firewall application.</li>
 		</ul>
+		<hr/>
+		<h2> Software manuals: </h2>
+		<p>The only prerequisite is a Blue box firewall and working internet connection.</p>
+		<h4>Software Manual Introduction:</h4>
+		<p>The Blue box firewall Mobile app is intended to help you interact with Network more quickly and efficiently. After installing the Mobile App, you will be able to see a list of networks like Home networks and Guest networks. </p>
+		<ul>
+			<li>Runs on any device in a browser window</li>
+			<li>See all network activity - by device - by user or overall network</li>
+			<li>See all the attacks that Blue Box Firewall Prevented (IDS, IPS, IP Block, Malware, Virus)</li>
+			<li>Keep track of people who are trying to see the internet content that you are blocking</li>
+			<li>Easily control your home/ user/ guest network & Internet Content Access level</li>
+			<li>Features like controlling backup &restore, managing VPN's and special port forwarding rules is now on your finger tips.</li>
+			<li>See information on your Blue box firewall system in real time</li> 
+			<li>Download the app from Apple store or Play store</li>
+		</ul>
+		<p>If the user connects to the network for the first time, an option called 'Save Password' will be displayed.</p>
+		<p>Note: <i> To run the Blue Box Firewall WEB App, open any browser and type mybbf.net</i></p>
+		<hr/>
+		<h4>Login Screen:</h4>
+		<center><img src="Photos (2)/login screen.png"></center>
+		<ul>
+			<li>The user can login by entering the correct details.</li>
+			<li>If the user enters the wrong password, then the message "Username or Password is incorrect” will be displayed.</li>
+			<li>The default Admin Username = ‘bbf’ (all in lower case) and the password = ‘Password’</li>
+			<li>User will be redirected to the main screen if the provided information is correct.</li>
+		</ul>
+		<hr/>
+		<h4>Header:</h4>
+		<center><img src="Photos (2)/header.png"></center>
+		<ul>
+			<li>This is the header of the application and is present in all the screens of application</li>
+			<li> The button on left side of header indicates menu button.</li>
+			<li> The button on right side of header is for the user to logout of the application.</li>
+			<li>Clicking on the logo "Blue box" will redirect user to the home screen</li>
+		</ul>
+		<hr/>
+		<h4>Footer:</h4>
+		<center><img src="Photos (2)/footer.png"></center>
+		<ul>
+			<li>Footer section has four different icons on which user can click and navigate to the corresponding page of application</li>
+			<ol>
+				<li>Home Network Screen</li>
+				<li>Users Screen</li>
+				<li>Tools Screen</li>
+				<li>Guest Wi-Fi Screen</li>
+			</ol>
+		</ul>
+		<hr/>
+		<h4>Main Screen:</h4>
+		<center><img src="Photos (2)/main screen.png"></center>
+		<ul>
+			<li>As you can see the above image is the dashboard/main screen of the Web app.</li>
+			<li>The globe image at the center indicates the Internet status.</li> 
+			<li>If the globe is blue, then internet status is “Up” i.e. ethernet cables are connected succesfully and internet is active</li>
+			<li>If the globe is blue, then internet status is “down” i.e. ethernet cables are not connected properly and Internet connection is absent</li> 
+			<li>As you can see in the above image, there are two sections in the dashboard. </li>
+			<ul>
+				<li>The one on the left side shows the names of devices that are connected to Home Network along with their IP address.</li>
+				<li>•	The one on right side shows the names of devices that are connected to Guest Network along with their IP address.</li>
+			</ul>
+			<li> The button Web Insights which is located at the bottom of the main screen will redirect the user to Firewall Insights screen</li>
+		</ul>
+		<center><img src="Photos (2)/globe.png"></center>
+		<ul>
+			<li>On the left and right side of the globe in above image, you can see two bandwidths of the internet - Download bandwidth (Downward Arrow) and Upload bandwidth (Upward arrow) respectively.</li>
+		</ul>
+		<hr/>
+		<h4>Firewall Insights Screen:</h4>
+		<center><img src="Photos (2)/web insights.png"></center>
+		<ul>
+			<p>On the top of this screen, there are three different options for user to choose</p>
+			<ol>
+				<li>When a user clicks on the Blue Box Firewall IPS - IDS feature, it displays a list of alerts detected on the network with Class name, Source IP address and Port number.</li>
+				<li>When a user clicks on the Blue Box Firewall Malware feature, it displays a list of alerts on the network with the Block Rule, Source, and Country Code.</li>
+				<li>When a user clicks on the Blue Box Firewall Web Filter feature, it displays a list of blocked websites with Domain name, the user it was blocked under, and the Client IP address.</li>
+			</ol>
+		</ul>
+		<hr/>
+		<h4>Home Screen:</h4>
+		<center><img src="Photos (2)/home screen.png"></center>
+		<br/>
+		<p>The users will navigate to this screen when they click on the Home Network button located in the footer section.</p>
+		<ul>
+			<li>Home screen will provide user's complete details</li>
+			<li>On the top left corner of Home screen, users can view:</li>
+			<ol>
+				<li>Home Network name</li>
+				<li>Password</li>
+			</ol>
+			<br/>
+			<li>User can perform different actions like:</li>
+			<ol>
+				<li>Changing the name of Home network by clicking on Home network name field</li>
+				<li>Change the password by clicking on password field</li>
+				<li>Choose the desired level of web filters like (Low, Medium, High, Custom)</li>
+				<li>Users can manage blocked catogeries by clicking on the "red power" button present on the left side of every category name</li>
+				<li>A user should click the save button located on top right corner of the Home network screen to save the changes</li>
+				<li>If the user does'nt wish to save the changes made, he can click on the cancel button</li>
+				<li>In custom screen, users can also set the pause time of internet by clicking on pause internet time button located at the bottom of this screen</li>
+			</ol>
+		</ul>
+		<p>Note:<i>Users can manage the blocked catogeries only in the custom mode and other levels have pre-defined blocked catogeries</i></p>
+		<br/>
+		<hr/>
+		<h4>Home Insights Screen:</h4>
+		<center><img src="Photos (2)/home insights.png"></center>
+		<p>Users will navigate to this screen when they click on the Home Insights button located at the bottom of this screen.</p>
+
+		
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<hr/>
+		<footer class="footer">
+			<li><span>Contact:</span> BCI Computers, </li>
+			<li>231 Quaker lane, </li>
+			<li>West Warwick, RI - 02893</li> 
+		</footer>
 	</div>
+	<br/>
+	<br/>
 </body>
 </html>
