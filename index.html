@@ -22,8 +22,10 @@ function topFunction() {
 	<div class="wrapper">
 		<div class="logoheader">
 				<img src="Logo02.BMP" class="logo">
-	 	</div>
-		
+		 </div>
+		 
+<!--navigation bar-->
+
 		 <nav>
 				<div class="dropdown">
 					<button class="dropbtn"><b>Quick start guide</b>
@@ -33,8 +35,8 @@ function topFunction() {
 						<a href="#intro">Introduction</a>
 						<a href="#package-contents">Package Contents</a>
 					</div>
-				 </div> 
-			<div class="dropdown">
+				</div> 
+				<div class="dropdown">
 					<button class="dropbtn"><b>Installation </b>
 						</button>
 					<div class="dropdown-content">
@@ -42,10 +44,19 @@ function topFunction() {
 						<a href="#pictorial">Pictorial Installation</a>
 						<a href="#detect">Detecting network</a>
 					</div>
-				 </div> 
-			<a href="#software-manuals">
-				<b>Software manual</b>
-			</a>
+				</div> 
+				<div class="dropdown">
+					<button class="dropbtn"><b>Software manuals </b>
+						</button>
+					<div class="dropdown-content">
+						<a href="#login">Login Screen</a>
+						<a href="#main">Main Screen</a>
+						<a href="#home">Home Screen</a>
+						<a href="#guest">Guest Screen</a>
+						<a href="#user">User Screen</a>
+						<a href="#tools">Tools Screen</a>
+					</div>
+				</div>
 		</nav>
 		
 		<center>
@@ -54,7 +65,9 @@ function topFunction() {
 		<center>
 			<caption class="image-caption">Image: Blue Box Firewall Kit</caption>
 		</center>
-		<hr>
+		<hr/>
+
+<!--Table of contents-->
 
 		<div>
 			<h2 id = "table-contents">Table of Contents:</h2>
@@ -71,9 +84,24 @@ function topFunction() {
 			<li>Detecting network (on device)</li>
 			</ol>
 			<li><b>Software (user) Manual</b></li>
+			<ol type="i">
+				<li>Login Screen</li>
+				<li>Main Screen</li>
+				<li>Home Screen</li>
+				<li>Guest Screen</li>
+				<li>Users Screen</li>
+				<li><b>Tools Screen</b></li>
+				<ul>
+					<li><a href="#internet">Internet Setup</a></li>
+					<li><a href="#vpn">Virtual Private Network</a></li>
+					<li><a href="#port">Port Forwarding</a></li>
+					<li><a href="#backup">Backup & Restore</a></li>
+				</ul>
 			</ol>
 		</div>
-		<hr>
+		<hr/>
+
+<!--Introduction-->
 
 		<div>
 			<h2 id="intro">Introduction:</h2>
@@ -91,7 +119,9 @@ function topFunction() {
 				<li>Default password is Password (we recommend you to change password)</li>
 			</ul>
 		</div>
-		<hr>
+		<hr/>
+
+<!--Package contents-->
 
 		<h2 id ="package-contents">
 		Package Contents:
@@ -186,8 +216,11 @@ function topFunction() {
 			</table>
 			<p></p>Note: <i>The serial numbers and  model numbers can be found behind the devices.</i></p>
 		</center>
-		<br>
-		<hr>
+		<br/>
+		<hr/>
+
+<!--Installation-->
+
 	<h2 id="install">Installation <span><i>(How to connect Blue Box firewall)</i></span>:</h2>
 		<h3 class= "hardware-install">Hardware Installation steps:</h3>
 			<ol>
@@ -204,6 +237,9 @@ function topFunction() {
 			</ol>
 			<p>Note: <i>The blue color indicates successful network connection.</i></p>
 			<hr/> 
+
+<!--Pictorial representation-->
+
 		<h3 id="pictorial">Pictorial representaion for Hardware Installation:</h3>
 		<br/>
 		<div class="connections-container">
@@ -211,6 +247,9 @@ function topFunction() {
 		</div>
 		<br/>
 		<hr/>
+
+<!--Detecting network-->
+
 		<h3 id ="detect">Detecting Network (On device):</h3>
 		<p>Once the hardware installation is done, the next steps required are:</p>
 		<ol>
@@ -240,6 +279,9 @@ function topFunction() {
 			<li>A user can manage his/her account settings from the Blue Box firewall application.</li>
 		</ul>
 		<hr/>
+
+<!--Software manuals-->
+
 		<h2> Software manuals: </h2>
 		<p>The only prerequisite is a Blue box firewall and working internet connection.</p>
 		<h4>Software Manual Introduction:</h4>
@@ -260,7 +302,7 @@ function topFunction() {
 
 <!--Login screen-->
 
-		<h4>Login Screen:</h4>
+		<h4 id="login">Login Screen:</h4>
 		<center><img src="Photos (2)/login screen.PNG"></center>
 		<ul>
 			<li>The user can login by entering the correct details.</li>
@@ -299,7 +341,7 @@ function topFunction() {
 
 <!--Main screen-->
 
-		<h4>Main Screen:</h4>
+		<h4 id="main">Main Screen:</h4>
 		<center><img src="Photos (2)/main screen.PNG"></center>
 		<ul>
 			<li>As you can see the above image is the dashboard/main screen of the Web app.</li>
@@ -333,9 +375,9 @@ function topFunction() {
 		</ul>
 		<hr/>
 
-<!--Home Network screen-->
+<!--Home screen-->
 
-		<h4>Home Network Screen:</h4>
+		<h4 id="home">Home Screen:</h4>
 		<center><img src="Photos (2)/home screen.PNG"></center>
 		<br/>
 		<p>The users will navigate to this screen when they click on the Home Network button located in the footer section.</p>
@@ -384,7 +426,7 @@ function topFunction() {
 
 <!--Guest screen-->
 
-		<h4>Guest Screen:</h4>
+		<h4 id="guest">Guest Screen:</h4>
 		<center><img src="Photos (2)/guest screen.PNG"></center>
 		<p>Users will navigate to this screen when they click on the Guest Wi-Fi button located in the footer</p>
 		<ul>
@@ -431,9 +473,9 @@ function topFunction() {
 		</ul>
 		<hr/>
 
-		<!--User screen-->
+<!--Users screen-->
 
-		<h4>User Screen:</h4>
+		<h4 id="user">Users Screen:</h4>
 		<center><img src="Photos (2)/user screen.PNG"></center>
 		<br/>
 		<p>The users will navigate to this screen when they click on the User button located in the footer section.</p>
@@ -492,8 +534,9 @@ function topFunction() {
 		</ul>
 		<hr/>
 
-<!--Tools Screen:-->
+<!--Tools Screen-->
 
+<h4 id="tools"></h4>
 <center><img src="Photos (2)/tools screen.PNG"></center>
 <label>Tools screen provides following information:</label>
 <ul>
@@ -516,7 +559,7 @@ function topFunction() {
 
 <!--Internet setup-->
 
-<h4>Internet Setup:</h4>
+<h4 id="internet">Internet Setup:</h4>
 <center><img src="Photos (2)/internet setup.PNG"></center>
 <p>Internet setup screen is used to change Ipv4 and Ipv6 information. </p>
 <ul>There are two sections:
@@ -560,7 +603,7 @@ function topFunction() {
 <!--IPv6 gateway needs to be added later on-->
 
 
-<h4>Port Forwarding:</h4>
+<h4 id="port">Port Forwarding:</h4>
 <center><img src="Photos (2)/port forwarding.PNG"></center>
 <p>In the above screen (Image: Port - 0), there are list of ports with its IP addresses, Protocol name and an option to delete in a tabular View.</p>
 <ul>
@@ -579,7 +622,7 @@ function topFunction() {
 <hr/>
 <!--Backup & Restore-->
 
-<h4>Backup & Restore:</h4>
+<h4 id="backup">Backup & Restore:</h4>
 <center><img src="Photos (2)/backup.PNG"></center>
 <p>Backup/Restore page shows the listing of all backups along with the created date of backup and Name of backup file. Also, there are options like create new backup, delete backup and restore backup.</p>
 <p>By clicking on “create new backup” button user can get one popup which says like “Do you want to create backup?” if user clicks on ok then backup will be created. List will be in descending order of the created date.</p>
