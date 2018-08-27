@@ -2,6 +2,7 @@
 <head>
 	<title>BBF Manuals</title>
 	<link rel="stylesheet" href="assets/css/index.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
@@ -64,7 +65,7 @@ function topFunction() {
 					</div>
 				</div>
 				<input type="text" placeholder= "Search..." id="myInput">
-				<img src= "Photos (2)/search.PNG" id = "searchbtn" onclick="search()">
+				<img src= "Photos (2)/search.png" id = "searchbtn" onclick="search()">
 		</nav>
 		
 		<center>
@@ -327,9 +328,18 @@ function topFunction() {
 		<center><img src="Photos (2)/header.PNG"></center>
 		<ul>
 			<li>This is the header of the application and is present in all the screens of application</li>
-			<li> The button on left side of header indicates menu button.</li>
-			<li> The button on right side of header is for the user to logout of the application.</li>
-			<li>Clicking on the logo "Blue box" will redirect user to the home screen</li>
+			<li> The button on left side of the logo indicates menu button <i class="fa fa-bars"></i></li>
+			<li>The menu button <i class="fa fa-bars"></i> has following options:</li>
+				<ul>
+					<li>Main (which directs user to main screen)</li>
+					<li>port</li>
+					<li>Sales</li>
+					<li>Our Technology</li>
+					<li>Contact Us</li>
+					<li>About us</li>
+				</ul>
+			<li> The button on right side of the logo is for the user to logout <i class="fa fa-sign-out-alt"></i>of the application.</li>
+			<li>Clicking on the logo "Blue box" will redirect user to the Main screen where user can keep track of their internet status</li>
 		</ul>
 		<hr/>
 
@@ -340,10 +350,10 @@ function topFunction() {
 		<ul>
 			<li>Footer section has four different icons on which user can click and navigate to the corresponding page of application</li>
 			<ol>
-				<li>Home Network Screen</li>
-				<li>Users Screen</li>
+				<li>Home Screen </li>
+				<li>Users Screen </li>
 				<li>Tools Screen</li>
-				<li>Guest Wi-Fi Screen</li>
+				<li>Guest Screen</li>
 			</ol>
 		</ul>
 		<hr/>
@@ -389,7 +399,7 @@ function topFunction() {
 		<h4 id="home">Home Screen:</h4>
 		<center><img src="Photos (2)/home screen.PNG"></center>
 		<br/>
-		<p>The users will navigate to this screen when they click on the Home Network button located in the footer section.</p>
+		<p>The users will navigate to this screen when they click on the Home icon located in the footer section.</p>
 		<ul>
 			<li>Home screen will provide user's complete details</li>
 			<li>On the top left corner of Home screen, users can view:</li>
@@ -403,8 +413,8 @@ function topFunction() {
 				<li>Changing the name of Home network by clicking on Home network name field</li>
 				<li>Change the password by clicking on password field</li>
 				<li>Choose the desired level of web filters like (Low, Medium, High, Custom)</li>
-				<li>Users can manage blocked catogeries by clicking on the "red power" button present on the left side of every category name</li>
-				<li>A user should click the save button located on top right corner of the Home network screen to save the changes</li>
+				<li>Users can manage blocked catogeries by clicking on the <i class="fa fa-power-off"></i> button present on the left side of every category name</li>
+				<li>A user should click the save button located on top right corner of the Home screen to save the changes</li>
 				<li>If the user does'nt wish to save the changes made, he can click on the cancel button</li>
 				<li>In custom screen, users can also set the pause time of internet on timely basis by clicking on pause internet time button located at the bottom of this screen</li>
 			</ol>
@@ -417,7 +427,7 @@ function topFunction() {
 
 		<h4>Home Insights Screen:</h4>
 		<center><img src="Photos (2)/home insights.PNG"></center>
-		<p>Users will navigate to this screen when they click on the Home Insights button located at the bottom of Home network screen</p>
+		<p>Users will navigate to this screen when they click on the Home Insights button located at the bottom of Home screen</p>
 		<ul>
 			<li>Home Insights screen shows the list of blocked websites with Time, Domain name, client IP and status </li>
 			<li>On the top center of this screen, users can see total number of websites blocked </li>
@@ -429,7 +439,7 @@ function topFunction() {
 				<li><b>Domain blocked:</b> The users can see list of websites that are blocked</li>
 			</ol>
 			<br/>
-			<li>Clicking on the back button, located at the botttom of this screen will redirect the user to home network screen</li>
+			<li>Clicking on the back button, located at the botttom of this screen will redirect the user to Home screen</li>
 		</ul>
 		<hr/>
 
@@ -437,7 +447,7 @@ function topFunction() {
 
 		<h4 id="guest">Guest Screen:</h4>
 		<center><img src="Photos (2)/guest screen.PNG"></center>
-		<p>Users will navigate to this screen when they click on the Guest Wi-Fi button located in the footer</p>
+		<p>Users will navigate to this screen when they click on the Guest icon located in the footer</p>
 		<ul>
 			<li>Guest screen will provide guest user details</li>
 			<li>On the top left corner of Guest screen, users can view:</li>
@@ -451,7 +461,7 @@ function topFunction() {
 				<li>Changing the name of Guest network by clicking on Home network name field</li>
 				<li>Change the password by clicking on password field</li>
 				<li>Choose the desired level of web filters like (Low, Medium, High, Custom)</li>
-				<li>Users can manage blocked catogeries by clicking on the "red power" button present on the left side of every category name</li>
+				<li>Users can manage blocked catogeries by clicking on the <i class="fa fa-power-off"></i> button present on the left side of every category name</li>
 				<li>A user should click the save button located on top right corner of the Guest network screen to save the changes</li>
 				<li>If the user does'nt wish to save the changes made, he/she can click on the cancel button</li>
 				<li>In custom screen, users can also set the pause time of internet on timely basis by clicking on pause internet time button located at the bottom of this screen</li>
@@ -489,21 +499,24 @@ function topFunction() {
 		<br/>
 		<p>The users will navigate to this screen when they click on the User button located in the footer section.</p>
 		<ul>
-			<li>User screen will provide user's cwith Name, level(Policy name) and options to edit or delete</li>
+			<li>User screen will provide user's with Name, level(Policy name) and options to edit or delete</li>
 			<li>On the top left corner of User screen, users can view:</li>
 			<ul>
 				<li>Home Network name</li>
 			</ul>
 			<br/>
 			<li>On the top right side, there is a button called "New User" to add a new user</li>
-			<li>The user can edit details of the Users by clicking on edit.</li>
+			<li>The user can edit details of the Users by clicking on edit  <i class="fa fa-pencil"></i></li>
 		</ul>
 			<br/>
 			<hr/>
+
+<!--Edit(users) Screen-->
+
 			<h4>Edit Page (Users):</h4>
 			<center><img src="Photos (2)/user screen edit.PNG"></center>
 			<br/>
-			<p>On clicking edit button, users will navigate to this screen</p>
+			<p>On clicking edit button <i class="fa fa-pencil"></i>, users will navigate to the above shown screen</p>
 				<p>In Edit page, top left part shows the username and password of the User </p>
 			<p>A button called Admin is located under User Name and Password.</p>
 			<ol>
@@ -512,11 +525,12 @@ function topFunction() {
 			</ol>
 			<ul>
 				<li>User can grant admin privileges to that user by clicking on the gray admin button</li>
-				<li>User can grant admin privileges to that user by clicking on the gray admin button</li>
 			</ul>
 			<p>In edit page, users can change its policy and settings</p>
 			<ul>
-				<li>In custom screen, users can also set the pause time of internet on timely basis by clicking on pause internet time button located at the bottom of this screen</li>
+				<li>Users can set password by double-clicking the password field</li>
+				<li>Users can manage blocked catogeries by clicking on the <i class="fa fa-power-off"></i> button present on the left side of every category name</li>
+				<li>In custom screen, users can also set the pause time of internet on timely basis by clicking on pause internet time button located at the bottom of the custom screen</li>
 			</ul>
 		<p>Note: <i>Users can manage the blocked catogeries only in the custom mode and other levels has pre-defined settings</i></p>
 		<br/>
@@ -596,7 +610,7 @@ function topFunction() {
 <center><img src="Photos (2)/IPv4.PNG"></center>
 <ul>
 	<li>If DHCP option is selected then it gives dynamic information like dynamic ipv4 address, dynamic subnet and dynamic gateway.</li>
-	<li>If DHCP option is not selected, then user must add valid Ipv4 address and select gateway from list. Also, User can gateway from here by clicking on Add Gateway button.</li>
+	<li>If DHCP option is not selected, then user must add valid Ipv4 address and select gateway from list. Also, User can add gateway from here by clicking on Add Gateway button.</li>
 	<li>When the user clicks on “Add Gateway” button, a popup is displayed which allows to add gateway </li>
 </ul>
 <br/>
@@ -604,9 +618,9 @@ function topFunction() {
 	<center><img src="Photos (2)/IPv4 gateway.PNG"></center>
 	<ul>
 		<li>In Add gateway form, there are fields like default, Gateway name, Gateway IP, Gateway description </li>
-		<li>After adding gateway, it appends gateway to the list as well as the dropdown option of Gateway.</li>
+		<li>After adding gateway, it appends gateway to the list as well as to the dropdown option of Gateway.</li>
 		<li> If user selects default checkbox at the time of adding gateway, then the gateway makes default gateway. </li>
-		<li>At a time, only one gateway become default gateway. User also can delete gateway from list by clicking on Delete button.</li>
+		<li>At a time, only one gateway can be set as default gateway. User can delete gateway from list by clicking on "Delete" button.</li>
 	<li>User must add valid gateway otherwise user can get validation message </li>
 	<li>If the user deselects DHCP option and user does not enter Ipv4 address, then user will get an error message</li>
 <br/>
@@ -616,7 +630,7 @@ function topFunction() {
 <center><img src="Photos (2)/IPv6.PNG"></center>
 <ul>
 	<li>If DHCP option is selected then it gives dynamic information like dynamic ipv4 address, dynamic subnet and dynamic gateway.</li>
-	<li>If DHCP option is not selected, then user must add valid Ipv4 address and select gateway from list. Also, User can gateway from here by clicking on Add Gateway button.</li>
+	<li>If DHCP option is not selected, then user must add valid Ipv4 address and select gateway from list. Also, User can add a gateway from here by clicking on Add Gateway button.</li>
 	<li>When the user clicks on “Add Gateway” button, a popup is displayed which allows to add gateway </li>
 </ul>
 <br/>
@@ -627,7 +641,7 @@ function topFunction() {
 
 <h4 id="port">Port Forwarding:</h4>
 <center><img src="Photos (2)/port forwarding.PNG"></center>
-<p>In the above screen (Image: Port - 0), there are list of ports with its IP addresses, Protocol name and an option to delete in a tabular View.</p>
+<p>In the above screen, there are list of ports with its IP addresses, Protocol name and an option to delete in a tabular View.</p>
 <ul>
 	<li>User can Delete and Add new port from this page.</li>
 	<li>User can Add New port by clicking “Add New Port Forward Rule” button. </li>
@@ -647,10 +661,13 @@ function topFunction() {
 <h4 id="backup">Backup & Restore:</h4>
 <center><img src="Photos (2)/backup.PNG"></center>
 <p>Backup/Restore page shows the listing of all backups along with the created date of backup and Name of backup file. Also, there are options like create new backup, delete backup and restore backup.</p>
-<p>By clicking on “create new backup” button user can get one popup which says like “Do you want to create backup?” if user clicks on ok then backup will be created. List will be in descending order of the created date.</p>
+<p>By clicking on “create new backup” button user gets a popup which says “Do you want to create backup?” if user clicks on ok then backup will be created. List of backups will be in descending order of the created date.</p>
 <p>The “cancel” button on top right will redirect the user to tools screen </p>
 <br/>
 		<hr/>
+
+<!--footer section-->
+
 		<footer class="footer">
 		<div class ="contact">
 			<li><span>Contact:</span> BCI Computers, 231 Quaker lane, </li>

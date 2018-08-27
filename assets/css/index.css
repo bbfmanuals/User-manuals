@@ -215,7 +215,7 @@
 		.contact {
 			    display: inline-block;
 			    float: right;
-			    margin-right: 141px;
+			    margin-right: 55px;
 			    border-left: 1px solid lightgray;
 			    padding-left: 48px;
 				padding-bottom: 35px;
@@ -223,5 +223,8 @@
 
 		.copy {
 			color:gray;
+		}
+		.fa-power-off {
+			color:limegreen;
 		}
 
