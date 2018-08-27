@@ -18,7 +18,13 @@ function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+	
+		function search() {
+			var searchText = document.getElementById("myInput").value;
+			window.find(searchText);
+		}
 	</script>
+
 	<div class="wrapper">
 		<div class="logoheader">
 				<img src="Logo02.BMP" class="logo">
@@ -57,7 +63,8 @@ function topFunction() {
 						<a href="#tools">Tools Screen</a>
 					</div>
 				</div>
-				<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search..." title="Type in a name">
+				<input type="text" id="myInput">
+				<input type="button" value="search" id = "searchbtn" onclick="search()">
 		</nav>
 		
 		<center>

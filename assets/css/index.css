@@ -90,23 +90,16 @@
 
 /*Search bar*/
 		#myInput {
-		        margin-left: 40px;
 			    padding-left: 8px;
 			    width: 150px;
 			    border: 1px solid white;
 			    border-radius: 5px;
-			    font-size:;
+			    font-size:16px;
+		}
+		#searchbtn {
+			background-image: url(Photos (2)/search.png);
 		}
 
-		#myUL {
-		    list-style-type: none;
-		    padding: 0;
-		    margin: 0;
-		}
-		#myUL li a {
-			  text-decoration: none;
-			  color: black;
-			}
 
 /* main body*/
 		.firewall-kit-image{
