@@ -90,7 +90,7 @@
 
 /*Search bar*/
 		#myInput {
-				margin-left: 20px;
+				margin-left: 5px;
 			    padding-left: 8px;
 			    width: 120px;
 			    border: 1px solid white;
@@ -99,6 +99,10 @@
 		}
 		#searchbtn {
 			background-image: url(Photos (2)/search.png);
+		}
+		#searchbtn {
+			margin-bottom: -5px;
+			width: 21px;
 		}
 
 
