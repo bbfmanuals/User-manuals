@@ -5,26 +5,28 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+
 	<script>
-		window.onscroll = function() {scrollFunction()};
-		function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        document.getElementById("myBtn").style.display = "block";
-    } else {
-        document.getElementById("myBtn").style.display = "none";
-    }
-}
-function topFunction() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-}
-	
-		function search() {
+			window.onscroll = function() {scrollFunction()};
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("myBtn").style.display = "block";
+				} else {
+				document.getElementById("myBtn").style.display = "none";
+				}
+			}
+			function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+			}
+			
+			function search() {
 			var searchText = document.getElementById("myInput").value;
 			window.find(searchText);
-		}
+			}
 	</script>
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
 
 	<div class="wrapper">
 		<div class="logoheader">
@@ -82,31 +84,31 @@ function topFunction() {
 			<h2 id = "table-contents">Table of Contents:</h2>
 			<ol style="line-height: 2.5;">
 				<li><b>Quick Start Guide</b></li>
-				<ol type="i">
-				<li>Introduction</li>
-				<li>Package Contents</li>
-				</ol>
+					<ol type="i">
+						<li>Introduction</li>
+						<li>Package Contents</li>
+					</ol>
 				<li><b>Installation (How to connect Blue Box firewall)</b></li>
-				<ol type="i">
-				<li>Hardware Installation steps</li>
-				<li>Pictorial representation for Hardware Installation</li>
-				<li>Detecting network (on device)</li>
-				</ol>
+					<ol type="i">
+						<li>Hardware Installation steps</li>
+						<li>Pictorial representation for Hardware Installation</li>
+						<li>Detecting network (on device)</li>
+					</ol>
 				<li><b>Software (user) Manual</b></li>
-				<ol type="i">
-					<li>Login Screen</li>
-					<li>Main Screen</li>
-					<li>Home Screen</li>
-					<li>Guest Screen</li>
-					<li>Users Screen</li>
-					<li><b>Tools Screen</b></li>
-					<ul>
-						<li><a href="#internet">Internet Setup</a></li>
-						<li><a href="#vpn">Virtual Private Network</a></li>
-						<li><a href="#port">Port Forwarding</a></li>
-						<li><a href="#backup">Backup & Restore</a></li>
-					</ul>
-				</ol>
+					<ol type="i">
+						<li>Login Screen</li>
+						<li>Main Screen</li>
+						<li>Home Screen</li>
+						<li>Guest Screen</li>
+						<li>Users Screen</li>
+						<li><b>Tools Screen</b></li>
+							<ul>
+								<li><a href="#internet">Internet Setup</a></li>
+								<li><a href="#vpn">Virtual Private Network</a></li>
+								<li><a href="#port">Port Forwarding</a></li>
+								<li><a href="#backup">Backup & Restore</a></li>
+							</ul>
+					</ol>
 			</ol>
 		</div>
 		<hr/>
