@@ -158,6 +158,13 @@
 			text-align: center
 		}
 
+/*Wan or Lan symbols*/
+
+		.wan-lan {
+			width: 10px;
+			height: 10px;
+		}
+
 /*Pictorial representation*/
 
 		.connections-container {
