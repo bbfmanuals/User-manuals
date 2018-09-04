@@ -9,8 +9,8 @@
 		}
 		.logoheader {
 			text-align: center;
-    			margin-bottom: 10px;
-    			margin-top: 10px;
+    		margin-bottom: 10px;
+    		margin-top: 10px;
 		}
 		.logo {
 			width: 360px;
@@ -41,10 +41,10 @@
 		}
 		.dropdown .dropbtn {
 			font-size: 20px;
-    			border: none;
+    		border: none;
    			outline: none;
 			color: white;
-			padding: 0px 15px;
+			padding: 0px 10px;
 			background-color: inherit;
 			font-family: inherit;
 			margin: 0;

@@ -67,6 +67,7 @@
 						<a href="#tools">Tools Screen</a>
 					</div>
 				</div>
+				<a href="#FAQ"><b>FAQ's</b></a>
 				<input type="text" placeholder= "Search..." id="myInput">
 				<img src= "Photos (2)/search.png" id = "searchbtn" onclick="search()">
 		</nav>
@@ -129,7 +130,11 @@
 				<li>Once Blue Box firewall is installed, you can connect wirelessly or directly using ethernet cables.</li>
 				<li>All you need to do is type mybbf.net in the browser window.</li>
 				<li>Default username is bbf</li>
-				<li>Default password is Password (we recommend you to change password)</li>
+				<li>Default password is "Password" (we recommend you to change password)</li>
+				<ul>
+					<li>To change password, go to User screens, click edit <i class="fa fa-pencil"></i> and then change password by clicking on Password field.</li>
+					<li>Click Save</li>
+				</ul>
 			</ul>
 		</div>
 		<hr/>
@@ -227,7 +232,7 @@
 					<td>1</td>
 				</tr>
 			</table>
-			<p></p>Note: <i>The serial numbers and  model numbers can be found behind the devices.</i></p>
+			<p></p>Note: <i>The serial numbers and  model numbers can be found at the back of your devices.</i></p>
 		</center>
 		<br/>
 		<hr/>
@@ -239,7 +244,7 @@
 			<ol>
 				<li>Connect one end of the yellow ethernet cable to slot 1 <img src= "Photos (2)/WAN1.png" class= "wan-lan"> of firewall</li>
 				<li>Connect the other end of the yellow ethernet cable to your cable modem</li>
-				<li>Connect one end of the blue ethernet cable to POE slot of AC-1401 POE power adapter and power cord</li>
+				<li>Connect one end of the blue ethernet cable to POE slot of AC-1404 POE power adapter and power cord</li>
 				<li>Connect the other end to the blue ethernet cable to the WAN/POE slot of Wi-Fi access point(AC-1404)</li>
 				<li>Connect one end of the black ethernet cable to LAN slot of POE adapter.</li>
 				<li>Connect the other end of black ethernet cable to slot 2 <img src ="Photos (2)/LAN1.png" class= "wan-lan"> of firewall(V2-SRT). </li>
@@ -285,7 +290,7 @@
 		<label>Note:<i> You can set password for Guest Wi-Fi by using the Blue box firewall app</i></label><br/>
 		<h4 class ="app-usage">How to use Blue box firewall app?</h4>
 		<ul>
-			<li>After connecting to Wi-Fi, open the browser(Chrome, Mozilla, Safari, etc.,) from any of your device and type "mybbf.net".</li>
+			<li>After connecting to Wi-Fi, open the browser(E.g. Chrome, Mozilla, Safari, etc.,) from any of your device and type "mybbf.net".</li>
 			<li>You will be navigated to the Blue Box site.</li>
 			<li>Typically username is “bbf” and password is “Password”</li>
 			<li>User will be navigated to the Blue Box firewall web application.</li>
@@ -302,7 +307,7 @@
 		<ul>
 			<li>Runs on any device in a browser window</li>
 			<li>See all network activity - by device - by user or overall network</li>
-			<li>See all the attacks that Blue Box Firewall Prevented (IDS, IPS, IP Block, Malware, Virus)</li>
+			<li>See all the attacks that Blue Box Firewall Prevented (Intrusions blocked, Websites blocked, Malware blocked)</li>
 			<li>Keep track of people who are trying to see the internet content that you are blocking</li>
 			<li>Easily control your home/ user/ guest network & Internet Content Access level</li>
 			<li>Features like controlling backup &restore, managing VPN's and special port forwarding rules is now on your finger tips.</li>
@@ -442,7 +447,7 @@
 				<li><b>Domain blocked:</b> The users can see list of websites that are blocked</li>
 			</ol>
 			<br/>
-			<li>Clicking on the back button, located at the botttom of this screen will redirect the user to Home screen</li>
+			<li>Clicking on the back button, located at the bottom of this screen will redirect the user to Home screen</li>
 		</ul>
 		<hr/>
 
@@ -466,7 +471,7 @@
 				<li>Choose the desired level of web filters like (Low, Medium, High, Custom)</li>
 				<li>Users can manage blocked catogeries by clicking on the <i class="fa fa-power-off"></i> button present on the left side of every category name</li>
 				<li>A user should click the save button located on top right corner of the Guest network screen to save the changes</li>
-				<li>If the user does'nt wish to save the changes made, he/she can click on the cancel button</li>
+				<li>If the user doesn't wish to save the changes made, he/she can click on the cancel button</li>
 				<li>In custom screen, users can also set the pause time of internet on timely basis by clicking on pause internet time button located at the bottom of this screen</li>
 			</ol>
 		</ul>
@@ -491,7 +496,7 @@
 				<li><b>Domain blocked:</b> The users can see list of websites that are blocked</li>
 			</ol>
 			<br/>
-			<li>Clicking on the back button, located at the botttom of this screen will redirect the user to Guest Wi-Fi screen</li>
+			<li>Clicking on the back button, located at the bottom of this screen will redirect the user to Guest Wi-Fi screen</li>
 		</ul>
 		<hr/>
 
@@ -509,7 +514,7 @@
 			</ul>
 			<br/>
 			<li>On the top right side, there is a button called "New User" to add a new user</li>
-			<li>The user can edit details of the Users by clicking on edit  <i class="fa fa-pencil"></i></li>
+			<li>The user can edit details of the users by clicking on edit  <i class="fa fa-pencil"></i></li>
 		</ul>
 			<br/>
 			<hr/>
@@ -626,6 +631,7 @@
 		<li>At a time, only one gateway can be set as default gateway. User can delete gateway from list by clicking on "Delete" button.</li>
 	<li>User must add valid gateway otherwise user can get validation message </li>
 	<li>If the user deselects DHCP option and user does not enter Ipv4 address, then user will get an error message</li>
+</ul>
 <br/>
 
 <!--IPv6 Section-->
@@ -644,17 +650,17 @@
 
 <h4 id="port">Port Forwarding:</h4>
 <center><img src="Photos (2)/port forwarding.PNG"></center>
-<p>In the above screen, there are list of ports with its IP addresses, Protocol name and an option to delete in a tabular View.</p>
+<p>The above screen provides the list of ports with its IP addresses, Protocol name and an option to delete.</p>
 <ul>
-	<li>User can Delete and Add new port from this page.</li>
-	<li>User can Add New port by clicking “Add New Port Forward Rule” button. </li>
+	<li>Users can Delete and Add new port from this page.</li>
+	<li>Users can Add New port by clicking “Add New Port Forward Rule” button. </li>
 </ul>
 <p>After clicking this button, a below popup appears: </p>
 <center><img src="Photos (2)/port popup.PNG"></center>
 <br/>
 <ul>
 	<li>Users must fill in the fields like IP, Port in, Port Out and Protocol and click Add.</li>
-	<li>When user deletes or adds new port, then the user gets a message "Changes have been saved successfully"</li>
+	<li>When user deletes or adds new port, then the user gets a pop-up stating "Changes have been saved successfully"</li>
 	<li>If User does not enter valid port, an error message will be displayed.</li>
 </ul>
 <br/>
@@ -663,11 +669,35 @@
 
 <h4 id="backup">Backup & Restore:</h4>
 <center><img src="Photos (2)/backup.PNG"></center>
-<p>Backup/Restore page shows the listing of all backups along with the created date of backup and Name of backup file. Also, there are options like create new backup, delete backup and restore backup.</p>
-<p>By clicking on “create new backup” button user gets a popup which says “Do you want to create backup?” if user clicks on ok then backup will be created. List of backups will be in descending order of the created date.</p>
-<p>The “cancel” button on top right will redirect the user to tools screen </p>
+<ul>
+<li>Backup/Restore page shows the list of all backups along with the created date of backup and name of backup file. Also, there are options like create new backup, delete backup and restore backup.</li>
+<li>When a user clicks on “create new backup” button a popup appears stating “Do you want to create backup?” if user clicks on ok then backup will be created. </li>
+<li>List of backups will be in descending order of the created date.</li>
+<li>The “cancel” button on top right will redirect the user to tools screen </li>
+</ul>
 <br/>
 		<hr/>
+
+<!--FAQ-->
+<h2 id = "FAQ"> FAQ's</h2>
+<label><b>Why I am not able to connect my IOT devices? (Chromecast, Alexa, Lights, etc.,)</b></label>
+<br/>
+<br/>
+<label>A: Make sure that your IOT devices are on the same network. You might have connected your IOT devices to your previous network</label>
+<br/>
+<br/>
+<label><b>How to connect IOT devices to same network?</b></label>
+<br/>
+<br/>
+<label>A: To connect your IOT devices to same network(Wi-Fi):</label>
+<ul>
+<li>Open your device settings from the mobile or desktop and search for the network.</li>
+<li> Forget the old network.</li>
+<li> Search for the available networks.</li>
+<li>Once your device detects the desired network connect the device to the desired network.</li>
+</ul>
+<br/>
+<hr/>
 
 <!--footer section-->
 
@@ -677,7 +707,7 @@
 			<li>West Warwick, RI - 02893</li> 
 		</div>
 		<div class="copy">
-			<p>&copy; 2018 - BCI Computers</p>
+			<p>&copy; 2018 - Blue Box Firewall</p>
 			<p>Raymond E. Calore</p>
 		</footer>
 	</div>
