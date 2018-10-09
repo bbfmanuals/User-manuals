@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="assets/css/index.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body  onload = "findChrome()">
 
 	<script>
 			window.onscroll = function() {scrollFunction()};
@@ -25,6 +25,13 @@
 			var searchText = document.getElementById("myInput").value;
 			window.find(searchText);
 			}
+
+			function findChrome() {
+			var isChrome = !!window.chrome && !!window.chrome.webstore;
+			if (isChrome) {
+			document.getElementById("search-div").style.display = "inline-block";
+			}
+		}
 	</script>
 
 	<button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
@@ -69,8 +76,10 @@
 					</div>
 				</div>
 				<a href="#FAQ"><b>FAQ's</b></a>
-				<input type="text" placeholder= "Search..." id="myInput">
-				<img src= "Photos (2)/search.png" id = "searchbtn" onclick="search()">
+				<div  id = "search-div">
+					<input type="text" placeholder= "Search..." id="myInput">
+					<img src= "Photos (2)/search.png" id = "searchbtn" onclick="search()">
+				</div>
 		</nav>
 		
 		<center>

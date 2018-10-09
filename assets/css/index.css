@@ -89,6 +89,9 @@
 		}
 
 /*Search bar*/
+		#search-div {
+			display: none;
+		}
 		#myInput {
 			margin-left: 5px;
 		    padding-left: 8px;
