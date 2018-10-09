@@ -228,6 +228,9 @@
 			color:#05a6d6;
 			font-size: 20px;
 		}
+		.copy span {
+			color:#05a6d6;
+		}
 		.contact {
 			    display: inline-block;
 			    float: right;
